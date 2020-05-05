@@ -1,0 +1,64 @@
+2020-02-29 15:02:20.410 +08:00 [INF] Starting Host
+2020-02-29 15:02:20.967 +08:00 [ERR] an error:{"TargetSite":"Void Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)","StackTrace":"   at WebApplication2.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in F:\\TestSpace\\SerilogSample1\\WebApplication2\\Startup.cs:line 35","Message":"An exception","Data":[],"InnerException":null,"HelpLink":null,"Source":"WebApplication2","HResult":-2146233088,"$type":"Exception"}
+2020-02-29 15:02:22.126 +08:00 [INF] from method: Index - EventType: 2
+2020-02-29 15:02:22.130 +08:00 [INF] {"PetName":"Pet1","Master":{"Name":"person1","Pets":[{"PetName":null,"Master":null,"$type":"Pet"},{"PetName":null,"Master":null,"$type":"Pet"}],"$type":"Person"},"$type":"Pet"}
+2020-02-29 15:03:54.338 +08:00 [INF] Starting Host
+2020-02-29 15:03:54.810 +08:00 [ERR] an error:{"TargetSite":"Void Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)","StackTrace":"   at WebApplication2.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in F:\\TestSpace\\SerilogSample1\\WebApplication2\\Startup.cs:line 35","Message":"An exception","Data":[],"InnerException":null,"HelpLink":null,"Source":"WebApplication2","HResult":-2146233088,"$type":"Exception"}
+2020-02-29 15:03:55.516 +08:00 [INF] from method: Index - EventType: 123
+2020-02-29 15:03:55.520 +08:00 [INF] {"PetName":"Pet1","Master":{"Name":"person1","Pets":[{"PetName":null,"Master":null,"$type":"Pet"},{"PetName":null,"Master":null,"$type":"Pet"}],"$type":"Person"},"$type":"Pet"}
+2020-02-29 15:10:15.444 +08:00 [INF] Starting Host
+2020-02-29 15:10:15.597 +08:00 [FTL] Host terminated unexpected
+System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 9 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at WebApplication2.Program.Main(String[] args) in F:\TestSpace\SerilogSample1\WebApplication2\Program.cs:line 35
+2020-02-29 15:10:46.731 +08:00 [INF] Starting Host
+2020-02-29 15:10:46.873 +08:00 [FTL] Host terminated unexpected
+System.FormatException: Could not parse the JSON file.
+ ---> System.Text.Json.JsonReaderException: The input does not contain any JSON tokens. Expected the input to start with a valid JSON token, when isFinalBlock is true. LineNumber: 9 | BytePositionInLine: 0.
+   at System.Text.Json.ThrowHelper.ThrowJsonReaderException(Utf8JsonReader& json, ExceptionResource resource, Byte nextByte, ReadOnlySpan`1 bytes)
+   at System.Text.Json.Utf8JsonReader.Read()
+   at System.Text.Json.JsonDocument.Parse(ReadOnlySpan`1 utf8JsonSpan, Utf8JsonReader reader, MetadataDb& database, StackRowStack& stack)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 utf8Json, JsonReaderOptions readerOptions, Byte[] extraRentedBytes)
+   at System.Text.Json.JsonDocument.Parse(ReadOnlyMemory`1 json, JsonDocumentOptions options)
+   at System.Text.Json.JsonDocument.Parse(String json, JsonDocumentOptions options)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationFileParser.ParseStream(Stream input)
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   --- End of inner exception stack trace ---
+   at Microsoft.Extensions.Configuration.Json.JsonConfigurationProvider.Load(Stream stream)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+--- End of stack trace from previous location where exception was thrown ---
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.HandleException(ExceptionDispatchInfo info)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load(Boolean reload)
+   at Microsoft.Extensions.Configuration.FileConfigurationProvider.Load()
+   at Microsoft.Extensions.Configuration.ConfigurationRoot..ctor(IList`1 providers)
+   at Microsoft.Extensions.Configuration.ConfigurationBuilder.Build()
+   at Microsoft.Extensions.Hosting.HostBuilder.BuildAppConfiguration()
+   at Microsoft.Extensions.Hosting.HostBuilder.Build()
+   at WebApplication2.Program.Main(String[] args) in F:\TestSpace\SerilogSample1\WebApplication2\Program.cs:line 35
+2020-02-29 15:11:09.550 +08:00 [INF] Starting Host
+2020-02-29 15:11:10.033 +08:00 [ERR] an error:{"TargetSite":"Void Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)","StackTrace":"   at WebApplication2.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in F:\\TestSpace\\SerilogSample1\\WebApplication2\\Startup.cs:line 35","Message":"An exception","Data":[],"InnerException":null,"HelpLink":null,"Source":"WebApplication2","HResult":-2146233088,"$type":"Exception"}
+2020-02-29 15:11:11.226 +08:00 [INF] from method: Index - AccountId: 123
+2020-02-29 15:11:11.231 +08:00 [INF] {"PetName":"Pet1","Master":{"Name":"person1","Pets":[{"PetName":null,"Master":null,"$type":"Pet"},{"PetName":null,"Master":null,"$type":"Pet"}],"$type":"Person"},"$type":"Pet"}
+2020-02-29 15:12:08.806 +08:00 [INF] Starting Host
+2020-02-29 15:12:09.293 +08:00 [ERR] an error:{"TargetSite":"Void Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)","StackTrace":"   at WebApplication2.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in F:\\TestSpace\\SerilogSample1\\WebApplication2\\Startup.cs:line 35","Message":"An exception","Data":[],"InnerException":null,"HelpLink":null,"Source":"WebApplication2","HResult":-2146233088,"$type":"Exception"}
+2020-02-29 15:12:10.147 +08:00 [INF] from method: Index - AccountId: 123
+2020-02-29 15:12:10.152 +08:00 [INF] {"PetName":"Pet1","Master":{"Name":"person1","Pets":[{"PetName":null,"Master":null,"$type":"Pet"},{"PetName":null,"Master":null,"$type":"Pet"}],"$type":"Person"},"$type":"Pet"}

@@ -1,0 +1,8 @@
+2020-02-09 13:33:04.115 +08:00 [INF] HTTP GET / responded 200 in 2.596 ms
+2020-02-09 13:33:41.844 +08:00 [INF] HTTP GET /Privacy responded 200 in 13.8854 ms
+2020-02-09 13:33:42.688 +08:00 [INF] HTTP GET / responded 200 in 5.004 ms
+2020-02-09 13:33:43.330 +08:00 [INF] HTTP GET / responded 200 in 2.9671 ms
+2020-02-09 13:33:47.947 +08:00 [INF] HTTP GET /Privacy responded 200 in 2.5801 ms
+2020-02-09 13:33:48.272 +08:00 [INF] HTTP GET / responded 200 in 1.1515 ms
+2020-02-09 13:33:50.969 +08:00 [INF] HTTP GET /Privacy responded 200 in 2.4419 ms
+2020-02-09 13:33:55.595 +08:00 [INF] HTTP GET / responded 200 in 1.5075 ms

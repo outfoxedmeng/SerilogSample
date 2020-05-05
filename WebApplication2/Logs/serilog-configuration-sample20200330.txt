@@ -1,0 +1,5 @@
+2020-03-30 00:33:50.641 +08:00 [INF] Starting Host
+2020-03-30 00:33:51.342 +08:00 [ERR] an error:{"TargetSite":"Void Configure(Microsoft.AspNetCore.Builder.IApplicationBuilder, Microsoft.AspNetCore.Hosting.IWebHostEnvironment)","StackTrace":"   at WebApplication2.Startup.Configure(IApplicationBuilder app, IWebHostEnvironment env) in F:\\TestSpace\\SerilogSample1\\WebApplication2\\Startup.cs:line 37","Message":"An exception","Data":[],"InnerException":null,"HelpLink":null,"Source":"WebApplication2","HResult":-2146233088,"$type":"Exception"}
+2020-03-30 00:33:52.065 +08:00 [INF] from method: Index - AccountId: 123
+2020-03-30 00:33:52.070 +08:00 [INF] {"PetName":"Pet1","Master":{"Name":"person1","Pets":[{"PetName":null,"Master":null,"$type":"Pet"},{"PetName":null,"Master":null,"$type":"Pet"}],"$type":"Person"},"$type":"Pet"}
+2020-03-30 00:33:52.153 +08:00 [INF] HTTP GET / responded 200 in 172.0601 ms

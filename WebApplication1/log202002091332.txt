@@ -1,0 +1,8 @@
+2020-02-09 13:32:35.769 +08:00 [INF] Starting Host
+2020-02-09 13:32:37.184 +08:00 [INF] Now listening on: https://localhost:5001
+2020-02-09 13:32:37.187 +08:00 [INF] Now listening on: http://localhost:5000
+2020-02-09 13:32:37.187 +08:00 [INF] Application started. Press Ctrl+C to shut down.
+2020-02-09 13:32:37.188 +08:00 [INF] Hosting environment: Development
+2020-02-09 13:32:37.189 +08:00 [INF] Content root path: F:\TestSpace\SerilogSample1\WebApplication1
+2020-02-09 13:32:38.621 +08:00 [INF] HTTP GET / responded 200 in 168.7921 ms
+2020-02-09 13:32:39.934 +08:00 [INF] HTTP GET / responded 200 in 4.0149 ms
